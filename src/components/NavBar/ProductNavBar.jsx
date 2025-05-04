@@ -4,15 +4,13 @@ import NavBarItem from "./NavBarItem";
 import styles from "./NavBar.module.css";
 
 const DATA = [
-  { id: 1, title: "HTML" },
-  { id: 2, title: "CSS" },
-  { id: 3, title: "JavaScript" },
-  { id: 4, title: "SQL" },
-  { id: 5, title: "Python" },
+  { id: 1, title: "products", link: "/products" },
+  { id: 2, title: "cart", link: "/cart" },
+  { id: 3, title: "profile", link: "/profile" },
 ];
 
-const NavBar = () => {
-  const [activeTab, setActiveTab] = useState("");
+const ProductNavBar = () => {
+  const [activeTab, setActiveTab] = useState("products");
 
   return (
     <div className={styles.container}>
@@ -28,4 +26,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default ProductNavBar;

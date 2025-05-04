@@ -1,0 +1,91 @@
+.detailContainer {
+  display: flex;
+  gap: 3rem;
+  padding: 3rem;
+  flex-wrap: wrap;
+  background: #f8f8f8;
+}
+
+.imageWrapper {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoWrapper {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+}
+
+.priceSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.regularPrice,
+.memberLabel {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.price,
+.memberPrice {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.quantitySection {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.quantitySection button {
+  padding: 6px 12px;
+  font-size: 1.2rem;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+}
+
+.addToCart {
+  flex: 1;
+  padding: 10px;
+  background: white;
+  border: 2px solid black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buyNow {
+  flex: 1;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.loading {
+  padding: 4rem;
+  text-align: center;
+  font-size: 2rem;
+}

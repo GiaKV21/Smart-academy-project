@@ -1,12 +1,13 @@
-import Tabs from "../Tabs/Tabs.jsx";
+import NavBar from "../components/NavBar/NavBar";
+import ProductNavBar from "../components/NavBar/ProductNavBar";
+import styles from "./page.module.css";
 
-function App() {
+export default function HomePage() {
   return (
-    <div>
-      <h1>My Tabs Example</h1>
-      <Tabs />
-    </div>
+    <main>
+      <NavBar />
+      <ProductNavBar />
+      <div className={styles.container}></div>
+    </main>
   );
 }
-
-export default App;
